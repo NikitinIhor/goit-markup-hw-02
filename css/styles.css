@@ -24,7 +24,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #404bbf;
+    color: #2e2f42;
 }
 
 .link:hover,
@@ -45,6 +45,7 @@ body {
 .tel {
     font-weight: 400;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: rgba(67, 68, 85, 1);
     text-decoration: none;
 }
@@ -53,23 +54,33 @@ body {
 .tel:hover {
     color: rgba(64, 75, 191, 1);
 }
+.mail:focus,
+.tel:focus {
+    color: #404bbf;
+}
 
 .one {
     background-color: rgba(46, 47, 66, 1);
 }
 
-.two {
+.two,
+.tree {
     background-color: #F4F4FD;
 }
-
+.tree-title {
+    text-align: center;
+}
 .section-tree-ul {
+    background-color: #FFFFFF;
+    color: #2e2f42;
+}
+.tree-li {
     background-color: #FFFFFF;
 }
 
-.four {}
-
 .four-title {
     font-size: 36px;
+    color: #2e2f42;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
@@ -98,6 +109,9 @@ body {
     color: rgba(255, 255, 255, 1);
 
 }
+.title-two {
+    color: #2e2f42;
+}
 
 .title-tree {
     font-size: 36px;
@@ -117,11 +131,13 @@ body {
     cursor: pointer;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
     background-color: #404BBF;
 }
 
 .sub-title {
+    color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -143,7 +159,7 @@ body {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
     text-decoration: none;
