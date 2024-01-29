@@ -42,8 +42,7 @@ body {
     font-style: normal
 }
 
-.mail,
-.tel {
+.adress-link {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -52,12 +51,10 @@ body {
     font-size: 16px;
 }
 
-.mail:hover,
-.tel:hover {
+.adress-link:hover {
     color: #404bbf;
 }
-.mail:focus,
-.tel:focus {
+.adress-link:focus {
     color: #404bbf;
 }
 
