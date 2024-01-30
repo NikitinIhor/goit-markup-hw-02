@@ -4,6 +4,10 @@ body {
     background-color: rgba(255, 255, 255, 1);
 }
 
+ul{
+    list-style: none;
+}
+
 .header-logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -59,20 +63,16 @@ body {
 }
 
 .one {
-    background-color: rgba(46, 47, 66, 1);
+    background-color: #2E2F42;
 }
 
-.two,
 .tree {
     background-color: #F4F4FD;
 }
 .tree-title {
     text-align: center;
 }
-.section-tree-ul {
-    background-color: #FFFFFF;
-    color: #2e2f42;
-}
+
 .tree-li {
     background-color: #FFFFFF;
 }
